@@ -1,0 +1,16 @@
+.faculty-head{
+  text-align: center;
+}
+.faculty-head button{
+  margin: 200px;
+  height: 40px;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+.random{
+  margin-top: 80px;
+  color: red;
+}
+

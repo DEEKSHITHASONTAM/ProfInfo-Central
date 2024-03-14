@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.prof-card{
+    height: 280px;
+    width: 380px;
+    /* width: 400px; */
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border-radius: 10px;
+}
+.prof-card:hover{
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+}
+.faculties-back{
+    background-color: cadetblue;
+    display: flex; 
+    margin-top: 70px;
+}
+.faculty-page{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0;
+    transition: 0.3s;
+    padding: auto;
+    background: linear-gradient(to top, rgb(11, 73, 90), rgb(71, 132, 143));
+    justify-content: center;
+    padding-top: 20px;
+}
+.closebtn{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    font-size: 1.2em;
+    color: aquamarine;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.menu-box ul{
+    list-style-type: none;
+    z-index: 1;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    transition: 0.3s;
+    height: 100%;
+    width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    position:fixed;
+}
+.menu-box ul li{
+    font-size: 16px;
+    text-align: left;
+    transition: 0.5s;
+}
+#cse,#ce,#ee{
+    color: rgb(127, 255, 249);
+    text-decoration: none;
+}
+.dabba{
+    font-size: 20px;
+    padding: 10px;
+    color: rgb(0, 255, 255);
+    /* pointer-events: none; */
+    cursor: pointer;
+    text-decoration: none;
+}
+.dabba:hover{
+    /* background-color: rgb(1, 40, 58); */
+   color: rgb(0, 242, 255);
+   border:1px solid rgb(0, 255, 234);
+}
+.box-1{
+    background-color: rgb(226, 255, 247);
+    display: flex;
+    gap: 2px;
+    border-radius: 10px;
+}
+.box-2{
+     text-align: justify;
+     padding: 0px 10px;
+     background-color: rgb(255, 241, 232);
+   border-top: 1px solid black;
+}
+.prof-dp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+   background: transparent;
+}
+.prof-details{
+    background-color: transparent;
+    text-align: left;
+}
+.prof-details p{
+   margin: 7px;
+}
+.circle{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(202, 201, 201);
+    border-radius: 50%;
+    border: 1px solid rgb(0, 242, 255);
+}
+.random-prof{
+    /* margin-top: 80px; */
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    /* background-color: rgb(150, 188, 195); */
+  }
+
+
+
+
+
+
+
+
+

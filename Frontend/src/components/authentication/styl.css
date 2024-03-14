@@ -1,0 +1,107 @@
+/* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+.login-position{
+    width: auto;
+   height: 100vh;
+    background-color: rgb(218, 249, 255);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.login-heading {
+  height: 70px;
+  /* background-color: #060b23; */
+  background: -webkit-linear-gradient(#00ffff, #020096);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* color: rgb(45, 255, 157); */
+  font-size: 4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(0, 255, 213);
+  border-radius: 20px;
+}
+
+.cont2{
+  margin-top: 20px;
+}
+.login-box{
+  height: 410px;
+  width: 400px;
+background-color: #060b23;
+  padding: 15px;
+  border: 1px solid rgb(161, 238, 255);
+   margin-right: 50px;
+   margin-top: 100px;
+   border-radius: 22px;
+}
+.forgot{
+  text-decoration: none;
+  margin-left: 26px;
+  color: rgb(0, 255, 191);
+}
+.btn{
+  height:47px;
+  /* background: linear-gradient(to right, #FF5F6D, #FFC371); */
+  background: linear-gradient(to right,#D8B5FF,aquamarine,#1EAE98);
+  cursor: pointer;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: 10px;
+ font-size: 28px;
+ font-weight: 700px;
+ border-radius: 22px;
+}
+.input-field{
+  position: relative;
+  margin: 10px;
+  
+  margin-bottom: 20px;
+
+}
+.btm{
+  color: white;
+  height: 30px;
+  text-align: center;
+}
+.btm span{
+  color: rgb(0, 213, 255);
+  cursor: pointer;
+}
+.input-field input{
+   width: 350px;
+  height: 60px;
+  border-radius: 6px;
+  font-size: 18px;
+  padding: 0 15px;
+  border: 2px solid #fff;
+  background: transparent;
+  color: #fff;
+  outline: none;
+}
+.input-field label{
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 19px;
+  pointer-events: none;
+  transition: 0.3s;
+}
+input:focus{
+  border: 2px solid aquamarine;
+}
+input:focus ~ label,
+input:valid ~ label{
+  top: 0;
+  left: 15px;
+  font-size: 16px;
+  padding: 0 2px;
+  background: #060b23;
+}
+
