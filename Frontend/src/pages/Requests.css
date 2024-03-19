@@ -1,0 +1,65 @@
+.MC{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.facultycard{
+    width: 25%;
+    margin-top: 90px;
+    margin-left: 75px;
+    background-color: rgb(80, 33, 136);
+    padding: 15px;
+    border: 6px solid white;
+    
+    transition:0.3s;
+    background:-webkit-linear-gradient(rgb(133, 127, 179),rgb(107, 220, 222));
+}
+
+.BC{
+    color: rgb(50, 38, 102);
+    text-align: center;
+    font-size: 30px;
+}
+.facultycard:hover {
+    border-image: linear-gradient();
+    border-top-color: rgb(159, 109, 212);
+    border-left-color:rgb(191, 161, 228);
+    border-right-color:rgb(191, 161, 228);
+    border-bottom-color:rgb(196, 174, 223);
+    border-width:6px;
+}
+
+.accept-button{
+    height: 38px;
+    width: auto;
+    margin: auto 85px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 2px solid rgb(111, 142, 176);
+}
+
+.reject-button{
+     height: 38px;
+     width: auto;
+     margin: auto -10px;
+     background-color: rgb(255, 255, 255);
+     color: black;
+     border: 2px solid rgb(111, 142, 176);
+}
+
+.accept-button:hover{
+    background-color: rgb(123, 234, 123);
+    -webkit-text-fill-color: rgb(6, 6, 0);
+    border: 2px solid rgb(55, 146, 55);
+}
+
+.reject-button:hover{
+    background-color: rgb(251, 67, 67);
+    -webkit-text-fill-color: rgb(255, 255, 255);
+    border: 2px solid rgb(113, 50, 50);
+}
+
+.info {
+    font-size: 20px; /* Example style */
+    color: black; /* Example style */
+  }

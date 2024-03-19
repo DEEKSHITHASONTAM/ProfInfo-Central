@@ -1,10 +1,12 @@
-import React from 'react'
+import{ React, useState, useEffect }from 'react'
+import axios from 'axios';
 import Prof from '../Prof'
 function Ce() {
+
   return (
-    <div>
+    <div className='faculty-main-api'>
       <h2>This is civil faculty page </h2>
-      <Prof />
+      <Prof departmentName = "Civil Engineering" />
     </div>
   )
 }

@@ -31,6 +31,17 @@
 .outer:hover{
   box-shadow: 0px 0px 0px 0px rgb(190, 190, 255);
 }
+.cont1{
+    background: linear-gradient(to bottom,rgb(96, 125, 142), rgb(177, 208, 210), rgb(43, 73, 98));
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding: 30px 40px 30px 40px;
+    margin-top: 60px;
+}
+
 .cont{
     background: linear-gradient(to bottom,rgb(96, 125, 142), rgb(177, 208, 210), rgb(43, 73, 98));
     /* background-color: rgb(150, 188, 195); */
@@ -41,7 +52,7 @@
     /* flex-wrap: wrap-reverse; */
     gap: 30px;
     padding: 30px 40px 30px 40px;
-    margin-top: 60px;
+    margin-top: 3px;
   }
 .dp{
     height: 120px;
@@ -64,9 +75,36 @@
  display: flex;
  justify-content: center;
 }
+  
 .links{
-    background-color: rgb(0, 15, 64);
-    height: 40px;
-    text-align: center;
-    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    background-color: rgb(12, 12, 129);
+    font-size: 40px;
+    gap: 30px;
+    color:white;
+    margin-top: -15px;
+}
+
+.cont1 .links{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(12, 12, 129);
+    font-size: 40px;
+    color:white;
+    margin-top: -15px;
+    gap: 30px;
+}
+.links .MuiSvgIcon-root {
+    color: white;
+    font-size: 30px; 
+  }
+  .links.linkedin-icon{
+    margin-right: -10px;
+}
+.linkedin-icon:hover{
+   color: rgb(0, 251, 255);
+}
+.instagram-icon:hover{
+    color: rgb(255, 0, 81);
 }

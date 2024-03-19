@@ -2,21 +2,36 @@ body{
     margin: 0;
     padding: 0;
 }
+.faculty-main-api h2{
+   text-align: center;
+}
+#open{
+    margin: 10px;
+}
 .prof-card{
-    height: 280px;
+    height: auto;
     width: 380px;
     /* width: 400px; */
-    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(140, 190, 208);
+    background-color: rgb(166, 196, 239);
+    /* background-color: #72A0C1; */
     display: flex;
     flex-direction: column;
     margin: 10px;
     border-radius: 10px;
+    overflow: hidden;
+}
+.box-2 span{
+    color: rgb(162, 112, 37);
+    /* background-color: black; */
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .prof-card:hover{
-    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px rgb(158, 200, 205);
 }
 .faculties-back{
-    background-color: cadetblue;
+    background-color: rgb(255, 255, 255);
     display: flex; 
     margin-top: 70px;
 }
@@ -26,7 +41,8 @@ body{
     margin-left: 0;
     transition: 0.3s;
     padding: auto;
-    background: linear-gradient(to top, rgb(11, 73, 90), rgb(71, 132, 143));
+    background-color: transparent;
+    /* background: linear-gradient(to top, rgb(11, 73, 90), rgb(71, 132, 143)); */
     justify-content: center;
     padding-top: 20px;
 }
@@ -77,16 +93,18 @@ body{
    border:1px solid rgb(0, 255, 234);
 }
 .box-1{
-    background-color: rgb(226, 255, 247);
+   background-color: transparent;
     display: flex;
     gap: 2px;
     border-radius: 10px;
+    color: rgb(0, 0, 0);
 }
 .box-2{
      text-align: justify;
      padding: 0px 10px;
-     background-color: rgb(255, 241, 232);
-   border-top: 1px solid black;
+     color: rgb(0, 0, 0);
+     /* background-color:#B9D9EB */
+   /* border-top: 1px solid black; */
 }
 .prof-dp{
     display: flex;
@@ -98,6 +116,13 @@ body{
 .prof-details{
     background-color: transparent;
     text-align: left;
+    /* border: 2px solid blue; */
+}
+.prof-details h2{
+    padding-left: 5px;
+    /* border: 2px solid aqua; */
+    background-color: transparent;
+    text-align: left;
 }
 .prof-details p{
    margin: 7px;
@@ -105,7 +130,7 @@ body{
 .circle{
     height: 100px;
     width: 100px;
-    background-color: rgb(202, 201, 201);
+    background-color: rgb(255, 255, 255);
     border-radius: 50%;
     border: 1px solid rgb(0, 242, 255);
 }
@@ -113,7 +138,7 @@ body{
     /* margin-top: 80px; */
     width: 100%;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
     /* background-color: rgb(150, 188, 195); */
   }
 

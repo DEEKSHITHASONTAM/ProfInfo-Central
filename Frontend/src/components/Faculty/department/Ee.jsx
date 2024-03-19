@@ -5,7 +5,7 @@ function Ee() {
   return (
     <div>
       <h2>This is Electrical faculty page </h2>
-      <Prof />
+      <Prof departmentName = "Electrical Engineering" />
     </div>
   )
 }
