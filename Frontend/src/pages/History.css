@@ -1,0 +1,33 @@
+.container {
+    height:670px;
+    margin-top: 60px;
+}
+
+.project-history-title {
+    text-align: center;
+    margin: 20px -100px;
+    margin-top: 20px;
+}
+
+.history-table {
+    margin:20px 200px;
+    margin-top: 100px;
+}
+
+.history-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.history-table th,
+.history-table td {
+    border: 1px solid #473e3e;
+    padding: 8px;
+    text-align: left;
+}
+
+.history-table th {
+    background-color: #c3d2c3;
+    font-weight: bold;
+    text-align: center;
+}
