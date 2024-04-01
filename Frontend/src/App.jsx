@@ -54,6 +54,7 @@ function App() {
     const [facultyIdForProject, setFacultyIdForProject] = useState("");
     const [projectId, setProjectId] = useState("");
     const my =[];
+    const acceptedBachhe = [];
 
     function getProjectId(x){
       setProjectId(x);
@@ -71,6 +72,18 @@ function App() {
      console.log("profid in appjsx is: "+profId);
     }
 
+    function handleEn(array){
+      console.log("data recieved of enrolled in app");
+      console.log(array);
+      const i = array.length;
+      console.log(i);
+      for(var x =0; x<i; x++){
+        acceptedBachhe.push(array[x]);
+      } 
+      console.log("after loop enrolled");
+      console.log(acceptedBachhe);
+    }
+
     function handleReq(array){
       console.log("data recieved in app.jsx");
            console.log(array);
@@ -84,7 +97,6 @@ function App() {
     };
   const getData = (isAuth, who, ikartik) => {
     // Handle data from child component
-    // console.log("Data received in parent:", ikartik);
     setAuthorization(isAuth);
     setKon(who);
     setLogedInStudentData(ikartik);
@@ -110,6 +122,7 @@ function App() {
                 getProjectId ={getProjectId}
                 profId ={profId}
                  req ={handleReq} 
+                 en = {handleEn}
                  />} />
                 {/* <Route path="DataTable" element={<DataTable />} /> */}
                 <Route path="NewProject" element={<NewProject profId={profId} />} />
@@ -123,6 +136,7 @@ function App() {
 
                 <Route path="EnrolledStudents" element={<EnrolledStudents
                 projectId ={projectId}
+                acceptedBachhe ={acceptedBachhe}
                  />} />
                 <Route path="ContactUs" element={<ContactUs />} />
                 {/* <Route path="LogOut" element={<LogOut />} /> */}

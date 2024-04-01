@@ -106,11 +106,13 @@ function SignIn(props) {
         console.log(data);
         setOtpFromApi(data.otp);
         alert("OTP sent successfully!");
+        // document.getElementById("otpButton").innerText ="sent"
         setLoadingOTP(false);
       })
       .catch((error) => {
         console.error("Error sending OTP:", error);
         alert("Not registered, contact developer's team to register");
+        // document.getElementsByClassName("otpButton")[0].innerHTML ="Send OTP"
         setLoadingOTP(false);
       });
   }
@@ -253,7 +255,7 @@ function SignIn(props) {
               <label>Enter email</label>
             </div>
             <div className="choose">
-            <button onClick={handleOTP} className="otpButton" disabled={loadingOTP}>
+            <button id="otpButton" onClick={handleOTP} className="otpButton" disabled={loadingOTP}>
               {loadingOTP ? (
                 <>
                 Sending....
@@ -280,7 +282,7 @@ function SignIn(props) {
           {error && <div className="error">{error}</div>}
 
           <div className="choose">
-            <button className="btns" type="submit" onClick={handleFacultyOtp} disabled={loading}>
+            <button  className="btns" type="submit" onClick={handleFacultyOtp} disabled={loading}>
             {loading ? (
               <>
                 Loading...
