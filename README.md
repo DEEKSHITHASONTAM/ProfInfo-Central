@@ -44,15 +44,9 @@ The project is deployed and hosted on Vercel. You can access the deployed applic
 
 2. Navigate to the project directory:
     ```bash
-    cd ProfInfo-Central
+    cd ProfInfo-Central/Frontend
     ```
-3. After installing the dependencies
-   
-   Navigate to the frontend directory using
-   ```bash
-   cd Frontend
-   ```
-4. Now install the dependencies using:
+3. Now install the dependencies using:
    ```bash
    npm install
    ```
