@@ -46,15 +46,15 @@ The project is deployed and hosted on Vercel. You can access the deployed applic
     ```bash
     cd ProfInfo-Central
     ```
-3. Now install the dependencies using:
-   ```bash
-   npm install
-   ```
-4. After installing the dependencies
+3. After installing the dependencies
    
    Navigate to the frontend directory using
    ```bash
    cd Frontend
+   ```
+4. Now install the dependencies using:
+   ```bash
+   npm install
    ```
 5. Start the server using:
    ```bash
